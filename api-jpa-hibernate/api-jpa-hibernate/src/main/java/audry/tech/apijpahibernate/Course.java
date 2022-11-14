@@ -4,7 +4,7 @@ package audry.tech.apijpahibernate;
 @Entity
 public class Course {
 
-    @col
+    @column
     private long id,
     private String name;
    private String Author;
